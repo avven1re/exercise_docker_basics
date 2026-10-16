@@ -1,1 +1,2 @@
-docker build -t java-project . && docker run -p 3000:8080 java-project
+docker build -t java-project . 
+docker run -p 3000:8080 java-project
